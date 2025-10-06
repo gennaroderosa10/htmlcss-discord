@@ -279,12 +279,17 @@ border: 1px solid grey
     max-width: 100%;
     }
 
-.right-div-1 {
-    /* width: calc((100% / 3) * 2); */
-    width: 40%;
-    
-    padding-top: 25px;
-}
+    .left-div-3 {
+    /* width: calc(100% / 3); */
+    width: 60%;
+     background-image: url(../img/item3.svg);
+    background-size: cover;
+    margin: 0 auto;
+
+    max-width: 100%;
+    }
+
+
 
 .sezione-4 {
     min-height: 800px;
