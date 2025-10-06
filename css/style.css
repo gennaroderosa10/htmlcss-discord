@@ -233,22 +233,23 @@ border: 1px solid grey
 
 .div-sec-2 {
      width: 500px;
-    height: 400px;  
+    min-height: 400px;  
     
 }
 
 .left-div {
     /* width: calc(100% / 3); */
-    width: 70%;
+    width: 60%;
      background-image: url(../img/item1.svg);
     background-size: cover;
     margin: 0 auto;
 
     max-width: 100%;
+    }
 
 .right-div {
     /* width: calc((100% / 3) * 2); */
-    width: 30%;
+    width: 40%;
 }
 
 .sezione2-bis {
