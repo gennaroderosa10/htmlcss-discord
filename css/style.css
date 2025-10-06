@@ -146,16 +146,7 @@ li {
     min-width: 70%;
 }
 
-.login {
-    background-color: white;
-    padding: 3px 15px;
-    line-height: 40px;
-    border-radius: 20px;
-    text-align: center;
-    display: inline-block;
-    border: 1px solid grey;
 
-}
 
 .sezione1 {
     background-image: url(../img/jumbo.png);
@@ -211,7 +202,7 @@ li {
 
 
 .wrapper {
-    min-height: 400px;
+    min-height: 500px;
 
     margin: 0 auto;
 
@@ -298,7 +289,7 @@ li {
 }
 
 .button-1 {
-    background-color: white;
+    background-color: rgb(92, 37, 219);
     padding: 3px 5px;
     line-height: 40px;
     border-radius: 20px;
@@ -309,7 +300,7 @@ li {
 }
 
 .footer-column {
-    border: 1px dashed white;
+    
     justify-content: space-evenly;
     flex-basis: 25%;
 }
@@ -317,3 +308,78 @@ li {
 .p-section5 {
     line-height: 1.5;
 }
+
+.sezione-footer {
+    max-height: 700px;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+
+}
+
+.div-sec-2 {
+    width: 500px;
+    min-height: 400px;
+
+}
+
+.right-div-1 {
+    /* width: calc((100% / 3) * 2); */
+    width: 30%;
+
+    padding-top: 25px;
+}
+
+.left-div-1 {
+    /* width: calc(100% / 3); */
+    width: 60%;
+   
+    margin: 0 auto;
+
+    max-width: 100%;
+}
+
+.h3-footer {
+    padding-bottom: 20px;
+    color: rgb(92, 37, 219);
+
+}
+
+.p-icone {
+    color: white;
+}
+
+.icone {
+    color: white;
+}
+
+.div-icone{
+    padding-top: 20px;
+}
+
+.violet{
+    color: rgb(92, 37, 219);
+}
+
+.login-footer {
+    background-color: rgb(92, 37, 219);
+    padding: 3px 5px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: fit-content;
+    border: 1px solid grey;
+
+}
+
+.login {
+    background-color: rgb(255, 255, 255);
+    padding: 3px 5px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: fit-content;
+    border: 1px solid grey;
+
+}
+
