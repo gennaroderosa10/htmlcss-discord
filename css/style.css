@@ -176,11 +176,38 @@ li {
 
 
 .div-sec-1 {
-    min-width: 800px;
-    min-height: 300px;
    
-   
+    
 
+}
+
+.hero-buttons {
+    display: inline-block;
+    font-size: 1.5rem;
+    
+}
+.button {
+  background-color: white;
+ padding: 3px 15px ;
+  line-height: 40px;
+  border-radius: 40px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid grey;
+  
+  
+  
+
+}
+
+.button-2 {
+  background-color: black;
+  padding: 3px 15px ;
+  line-height: 40px;
+  border-radius: 40px;
+  text-align: center;
+  display: inline-block;
+border: 1px solid grey
 }
 
 
@@ -213,7 +240,11 @@ li {
 .left-div {
     /* width: calc(100% / 3); */
     width: 70%;
-}
+     background-image: url(../img/item1.svg);
+    background-size: cover;
+    margin: 0 auto;
+
+    max-width: 100%;
 
 .right-div {
     /* width: calc((100% / 3) * 2); */
@@ -235,31 +266,3 @@ li {
     flex-basis: 25%;
 }
 
-.hero-buttons {
-    display: inline-block;
-    font-size: 1.5rem;
-    
-}
-.button {
-  background-color: white;
- padding: 3px 15px ;
-  line-height: 40px;
-  border-radius: 40px;
-  text-align: center;
-  display: inline-block;
-  border: 1px solid grey;
-  
-  
-  
-
-}
-
-.button-2 {
-  background-color: black;
-  padding: 3px 15px ;
-  line-height: 40px;
-  border-radius: 40px;
-  text-align: center;
-  display: inline-block;
-border: 1px solid grey
-}
