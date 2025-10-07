@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
+/* ************* */
+
 body {
     font-family: sans-serif;
 }
@@ -20,6 +26,8 @@ a {
 li {
     padding: 5px;
 }
+
+
 
 /* DEBUG */
 
@@ -166,7 +174,7 @@ li {
 }
 
 
-.div-sec-1 {}
+
 
 .hero-buttons {
     display: inline-block;
@@ -203,7 +211,6 @@ li {
 
 .wrapper {
     min-height: 500px;
-
     margin: 0 auto;
 
 }
@@ -212,8 +219,9 @@ li {
 .sezione2 {
     max-height: 700px;
     width: 1000px;
-    height: 500px;
+
     margin: 0 auto;
+    padding: 50 0;
 
 }
 
@@ -240,6 +248,17 @@ li {
     width: 40%;
 
     padding-top: 25px;
+}
+
+.h2-section1 {
+    font-size: 2.5rem;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+
+.p-section1 {
+    font-size: 1.1rem;
+    line-height: 1.2;
 }
 
 .h2-section2 {
@@ -383,3 +402,6 @@ li {
 
 }
 
+.flag {
+    width: 20px;
+}
